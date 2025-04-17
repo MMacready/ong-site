@@ -1,0 +1,5 @@
+node_modules/
+ong-frontend/node_modules/
+package-lock.json
+ong-frontend/package-lock.json
+ong-frontend/.env
