@@ -1,0 +1,117 @@
+.page-banner {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .feedback-form button {
+    background-color: var(--secondary-color);
+    color: var(--white);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .feedback-form button:hover {
+    background-color: #2980b9;
+  }
+  
+  .success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  /* Media Queries para Responsividade */
+  @media (max-width: 768px) {
+    .page-banner {
+      height: 250px;
+    }
+  
+    .feedback-form {
+      max-width: 400px;
+      gap: 15px;
+    }
+  
+    .form-group input,
+    .form-group textarea {
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    .feedback-form button {
+      padding: 8px 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .page-banner {
+      height: 200px;
+    }
+  
+    .feedback-form {
+      max-width: 100%;
+      gap: 10px;
+    }
+  
+    .form-group input,
+    .form-group textarea {
+      padding: 6px;
+      font-size: 12px;
+    }
+  
+    .feedback-form button {
+      padding: 6px 10px;
+      font-size: var(--font-size-small);
+    }
+  }

@@ -1,0 +1,58 @@
+.sidebar-decoration {
+    position: fixed;
+    top: 60px; /* Altura estimada do menu (ajuste se necessário) */
+    left: 0;
+    height: calc(100vh - 110px); /* 100vh menos a altura do menu (60px) e do rodapé (50px) */
+    width: 50px;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
+  }
+  
+  .triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  
+  .triangle-1 {
+    border-width: 50px 0 50px 50px;
+    border-color: transparent transparent transparent #4B2E83; /* Roxo escuro */
+  }
+  
+  .triangle-2 {
+    border-width: 50px 50px 0 0;
+    border-color: #8B008B transparent transparent transparent; /* Magenta */
+  }
+  
+  .triangle-3 {
+    border-width: 0 0 50px 50px;
+    border-color: transparent transparent #4169E1 transparent; /* Azul */
+  }
+  
+  .triangle-4 {
+    border-width: 50px 50px 0 0;
+    border-color: #5C4033 transparent transparent transparent; /* Marrom */
+  }
+  
+  .triangle-5 {
+    border-width: 50px 0 50px 50px;
+    border-color: transparent transparent transparent #FF8C00; /* Laranja escuro */
+  }
+  
+  .triangle-6 {
+    border-width: 0 50px 50px 0;
+    border-color: transparent #FF4500 transparent transparent; /* Laranja claro */
+  }
+  
+  .triangle-7 {
+    border-width: 50px 0 50px 50px;
+    border-color: transparent transparent transparent #FF69B4; /* Rosa */
+  }
+  
+  .triangle-8 {
+    border-width: 0 50px 50px 0;
+    border-color: transparent #00CED1 transparent transparent; /* Ciano */
+  }

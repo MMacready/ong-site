@@ -1,0 +1,104 @@
+.footer {
+    background-color: #34495e;
+    color: white !important; /* Texto em branco com alta prioridade */
+    padding: 60px 20px; /* Aumentar o padding para aumentar a espessura do rodapé */
+    width: 100%;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: white !important; /* Títulos em branco com alta prioridade */
+  }
+  
+  .footer-section p {
+    margin: 5px 0;
+    color: white !important; /* Parágrafos em branco com alta prioridade */
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: white !important; /* Links em branco com alta prioridade */
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #3498db !important; /* Cor ao passar o mouse */
+  }
+  
+  .footer-section a {
+    color: white !important; /* Garante que todos os links no rodapé sejam brancos */
+    text-decoration: none; /* Remover sublinhado */
+  }
+  
+  .footer a {
+    color: white !important; /* Regra mais específica para todos os links no rodapé */
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #3498db !important;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 15px;
+    align-items: center; /* Alinhar ícones e texto verticalmente */
+  }
+  
+  .social-links a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white !important; /* Links de redes sociais em branco */
+  }
+  
+  .social-links a:hover {
+    color: #3498db !important; /* Cor ao passar o mouse */
+  }
+  
+  .social-icon {
+    width: 24px; /* Tamanho da imagem */
+    height: 24px;
+    transition: opacity 0.3s; /* Efeito de hover para imagens */
+  }
+  
+  .social-icon:hover {
+    opacity: 0.8; /* Efeito de hover */
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+    color: white !important; /* Texto em branco com alta prioridade */
+  }

@@ -1,0 +1,94 @@
+.doubts-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .doubts-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .doubts-container p {
+    color: #555;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .doubts-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .form-group textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .rating {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .star {
+    font-size: 24px;
+    color: #ddd;
+    cursor: pointer;
+  }
+  
+  .star.filled {
+    color: #f1c40f;
+  }
+  
+  .error {
+    color: #e74c3c;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .success {
+    color: #2ecc71;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .submit-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .submit-button:hover {
+    background-color: #2980b9;
+  }
